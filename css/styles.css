@@ -1,0 +1,63 @@
+*{
+    outline: none;
+    user-select: none;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    caret-color: #fff;
+    color: #fff;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-image: radial-gradient(
+        rgba(0, 0, 0, 0.596),
+        rgba(0, 1, 7, 0.295)),
+        url('https://images.wallpaperscraft.com/image/code_letters_screen_135985_3840x2400.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.startpage__clock{
+    text-align: center;
+}
+.startpage__clock .time{
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 400;
+}
+.startpage__clock .date{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.startpage__user .greetings{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.startpage__user .inputName{
+    padding: 4px;
+    font-size: 1.3rem;
+}
+.user__aims{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.user__aims .question{
+    font-weight: 400;
+}
+.user__aims .answer{
+    width: auto;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 4px;
+    padding-top: 8px;
+}

@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Developer start page",
+    "version": "1.0",
+    "author": "Code Chappie",
+    "description": "description",
+    "chrome_url_overrides": {
+        "newtab": "../index.html"
+    },
+    "permissions": ["tabs"],
+    "icons": {
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+    "offline_enabled": true,
+    "browser_action": {
+        "default_icon": "icon48.png"
+      }
+}
